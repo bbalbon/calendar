@@ -2,7 +2,7 @@ version: '3'
 
 services:
     calendar:
-        build: .
+        image: 'bbalbon/trippy_advisors_calendar_widget:calendar'
         depends_on:
             - 'database'
         ports:
