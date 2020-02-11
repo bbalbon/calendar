@@ -7,7 +7,7 @@
     "test": "jest",
     "startdev": "nodemon ./server/index.js",
     "start": "node ./server/index.js",
-    "react-dev": "webpack -d --watch",
+    "react-dev": "webpack -p",
     "seed": "node ./server/seedingScript.js"
   },
   "repository": {

@@ -27,5 +27,5 @@ app.get('/hotels/:id/', (req, res) => {
 })
 
 app.listen(1128, () => {
-    console.log('Listening on port 8080... \n');
+    console.log('Listening on port 1128... \n');
 })
